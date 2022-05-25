@@ -24,7 +24,7 @@
    :output-dir "resources/public/js/compiled"
    :asset-path "/js/compiled"
    :modules
-   {:app {:init-fn auth2.core/init}}
+   {:app {:init-fn auth.core/init}}
    :devtools
    {:preloads [day8.re-frame-10x.preload]}
    :dev
